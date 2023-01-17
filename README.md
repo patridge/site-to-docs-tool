@@ -1,7 +1,17 @@
-# Learn Maintenance Tool
+# Site-to-Docs Maintenance Tool
 
-Determine the author of a given Microsoft Learn or Microsoft Docs page. And quickly navigate to the content in GitHub to propose edits. This tool was created for the Microsoft Learn content team to help triage user-reported feedback to the right maintainer, but anyone is welcome to use it if it helps them.
+Tool for mapping a documentation site to its source content to quickly navigate to the source content in a repo for a given live page you are viewing.
 
+This tool evolved from one [originally created for the Microsoft Learn Training site](https://github.com/patridge/learn-metadata-tool), but this version is designed to allow for arbitrary mappings between a live site and the backing repository.
+
+## Roadmap
+
+This project has just begun, and isn't even in a beta state yet. These are definitely subject to change as this project develops or evolves.
+
+* Remove Learn-specific components (formerly pulled from meta tags)
+* Create abstraction for site mapping
+
+<!--
 ![Screenshot of the Microsoft Learn Maintenance Tool Chrome extension showing a page's author, date, and edit link metadata loaded.](media/extension-screenshot-large-v0.2.5.png)
 
 ## Features
@@ -110,3 +120,4 @@ Here are the current plans for upcoming releases. These are definitely subject t
 ### Future plans and suggestions
 
 You can follow along with planned development efforts by [looking at the open GitHub issues with the **enhancement** tag](https://github.com/patridge/learn-metadata-tool/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement). If you have a feature or suggestion you want to propose, [submit your own enhancement request on GitHub](https://github.com/patridge/learn-metadata-tool/issues/new?labels=enhancement).
+-->
